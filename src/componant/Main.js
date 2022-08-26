@@ -1,20 +1,24 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import Pu from './asstes/pu.jpg'
+import dog from './asstes/god.jpg';
+
 
 
 class Main extends React.Component {
   render(){
     return(
     <div>
-      <HornedBeast title='Rhino
+      <h1>parant</h1>
+      <HornedBeast name='Franky
 ' 
-      URL='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeihBLoVqi4N8i_HVSLF1RJUzCIrR5IN5l9hRPK7jQrw&s'
+      URL={Pu}
       
       imgTitle='Rhino
       '
       Description='The cat beast'/>
-      <HornedBeast title='Dog' 
-      URL='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3selLW6_SD0cTe7CZYvqCPBJV3b76swg9qBcgwXWObQ&s'
+      <HornedBeast name='fulfly' 
+      URL={dog}
       
       imgTitle='dog'
       Description='The dog beast'/>
